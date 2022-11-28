@@ -1,12 +1,10 @@
 Uma implementação NodeJS de uma API de ecommerce.
 <hr>
-<br>
-<br>
+
 <strong>Ferramentas usadas</strong>
 1. Insominia (https://insomnia.rest/download)
 2. MongoDB (https://www.mongodb.com/pt-br/cloud/atlas/efficiency)
 3. NodeJS (https://nodejs.org/en/)
-<br>
 <br>
 <br>
 <strong>Como usar</strong>
@@ -14,11 +12,9 @@ Uma implementação NodeJS de uma API de ecommerce.
 2. Ligar o server (npm run dev)
 <br>
 <br>
-<br>
 <strong>.env</strong>
 <br>
 mongodb+srv://ecommerce_API:<password>@cluster0.yocvoc1.mongodb.net/?retryWrites=true&w=majority (so criar um no MongoDB)
-<br>
 <br>
 <br>
 <strong>Criar suas request no Insominia</strong>
