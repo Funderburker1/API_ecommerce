@@ -1,6 +1,6 @@
 Uma implementação NodeJS de uma API de ecommerce.
 
-<strong>Ferramentas usadas<strong>
+<strong>Ferramentas usadas</strong>
 1. Insominia (https://insomnia.rest/download)
 2. MongoDB (https://www.mongodb.com/pt-br/cloud/atlas/efficiency)
 3. NodeJS (https://nodejs.org/en/)
