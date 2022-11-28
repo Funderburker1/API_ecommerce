@@ -12,7 +12,7 @@ Uma implementação em NodeJS de uma API de ecommerce.
 <hr>
 <strong>.env</strong>
 <br>
-mongodb+srv://ecommerce_API:<senha>@cluster0.yocvoc1.mongodb.net/?retryWrites=true&w=majority (so criar um no MongoDB)
+mongodb+srv://ecommerce_API:*senhaAqui*@cluster0.yocvoc1.mongodb.net/?retryWrites=true&w=majority (so criar um no MongoDB)
 <hr>
 <strong>Criar suas request no Insominia</strong>
 <br>
