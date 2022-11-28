@@ -7,6 +7,7 @@ Uma implementação em NodeJS de uma API de ecommerce.
 <hr>
 <strong>Como usar</strong>
 1. Baixar node_modules (npm install express)
+ 
 2. Ligar o server (npm run dev)
 <hr>
 <strong>.env</strong>
