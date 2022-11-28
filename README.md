@@ -11,6 +11,7 @@ Como usar
 
 .env
 <br>
+<br>
 mongodb+srv://ecommerce_API:<password>@cluster0.yocvoc1.mongodb.net/?retryWrites=true&w=majority (so criar um no MongoDB)
 
 Criar suas request no Insominia
