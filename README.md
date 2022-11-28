@@ -10,6 +10,7 @@ Como usar
 2. Ligar o server (npm run dev)
 
 .env
+<br>
 mongodb+srv://ecommerce_API:<password>@cluster0.yocvoc1.mongodb.net/?retryWrites=true&w=majority (so criar um no MongoDB)
 
 Criar suas request no Insominia
