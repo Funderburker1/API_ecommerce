@@ -17,4 +17,5 @@ mongodb+srv://ecommerce_API:<password>@cluster0.yocvoc1.mongodb.net/?retryWrites
 <br>
 exemplo a baixo:
 <br>
-![Screenshot_7](https://user-images.githubusercontent.com/66924117/204288928-c448ed97-fb27-46b4-81eb-f0d71cb2b964.png)
+![Screenshot_7](https://user-images.githubusercontent.com/66924117/204291642-218f5157-ea13-4263-acc3-2c2be43fcf29.png)
+
