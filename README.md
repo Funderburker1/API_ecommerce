@@ -4,14 +4,15 @@ Uma implementação NodeJS de uma API de ecommerce.
 1. Insominia (https://insomnia.rest/download)
 2. MongoDB (https://www.mongodb.com/pt-br/cloud/atlas/efficiency)
 3. NodeJS (https://nodejs.org/en/)
-
+<hr>
 <strong>Como usar</strong>
 1. Baixar node_modules (npm install express)
 2. Ligar o server (npm run dev)
-<br>
+<hr>
 <strong>.env</strong>
 <br>
 mongodb+srv://ecommerce_API:<password>@cluster0.yocvoc1.mongodb.net/?retryWrites=true&w=majority (so criar um no MongoDB)
+<hr>
 <strong>Criar suas request no Insominia</strong>
 <br>
 exemplo a baixo:
