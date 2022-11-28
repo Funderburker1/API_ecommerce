@@ -1,4 +1,4 @@
-const Usuario = require('../../models/Usuario')
+const User = require('../../models/User')
 
 const SessaoController = {
 
@@ -8,7 +8,7 @@ const SessaoController = {
 
       try {
 
-         const usuario = await Usuario.findById({ username })
+         const usuario = await User.findById({ username })
          return res.status(200).json(usuario)
 
       } catch (err) {

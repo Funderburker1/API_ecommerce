@@ -1,6 +1,6 @@
-const Usuario = require('../../models/Usuario')
+const Usuario = require('../../models/User')
 
-const UsuarioController = {
+const UserController = {
    async criarUsuario(req, res) {
 
       const bodyData = req.body
@@ -45,4 +45,4 @@ const UsuarioController = {
    },
 }
 
-module.exports = UsuarioController
+module.exports = UserController

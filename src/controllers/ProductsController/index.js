@@ -1,6 +1,6 @@
-const Produtos = require('../../models/Produtos')
+const Products = require('../../models/Products')
 
-const ProdutosController = {
+const ProductsController = {
    async criarProdutos(req, res) {
 
       const bodyData = req.body
@@ -9,14 +9,14 @@ const ProdutosController = {
       try {
          const data = { username: usuario_id, ...bodyData }
 
-         const newProduct = await Produtos.create(data)
+         const newProduct = await Products.create(data)
          await newProduct.populate('username')
 
          return res.status(200).json(newProduct)
 
       } catch (err) {
 
-         return res.status(400).json(Err)
+         return res.status(400).json(err)
       }
    },
 
@@ -26,12 +26,12 @@ const ProdutosController = {
 
       try {
 
-         const produtosDoUsuarios = await Produtos.find({ username: usuarios_id })
+         const produtosDoUsuarios = await Products.find({ username: usuarios_id })
          return res.status(200).json(produtosDoUsuarios)
 
       } catch (err) {
 
-         return res.status(400).json(Err)
+         return res.status(400).json(err)
       }
    },
 
@@ -47,7 +47,7 @@ const ProdutosController = {
 
       } catch (err) {
 
-         return res.status(400).json(Err)
+         return res.status(400).json(err)
       }
    },
    async deletarProdutos(req, res) {
@@ -56,26 +56,42 @@ const ProdutosController = {
 
       try {
 
-         const deletarProdutos = await Produtos.findOneAndDelete(produto_id)
+         const deletarProdutos = await Products.findOneAndDelete(produto_id)
          return res.status(200).json(deletarProdutos)
 
       } catch (err) {
 
-         return res.status(400).json(Err)
+         return res.status(400).json(err)
       }
    },
+
    async pegarProdutos(req, res) {
 
-      try { } catch (err) {
-         return res.status(400).json(Err)
+      try {
+
+         const produtos = await Products.find
+         return res.status(200).json(produtos)
+
+      } catch (err) {
+
+         return res.status(400).json(err)
       }
    },
+
    async pegarIdProduto(req, res) {
 
-      try { } catch (err) {
-         return res.status(400).json(Err)
+      const { produto_id } = req.params
+
+      try {
+
+         const produto = await Products.findById(produto_id)
+         return res.status(200).json(produto)
+
+      } catch (err) {
+
+         return res.status(400).json(err)
       }
    },
 }
 
-module.exports = ProdutosController
+module.exports = ProductsController

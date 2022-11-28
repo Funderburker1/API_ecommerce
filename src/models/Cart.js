@@ -3,11 +3,11 @@ const mongoose = require('mongoose');
 const Schema = new mongoose.Schema({
    produtos: [{
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'Produtos'
+      ref: 'Products'
    }],
    username: {
       type: mongoose.Schema.Types.ObjectId,
-      required: 'Usuario'
+      required: 'User'
    },
    endereco: {
       cidade: {
@@ -35,4 +35,4 @@ const Schema = new mongoose.Schema({
    }
 })
 
-module.exports = mongoose.model('Carrinho', Schema)
+module.exports = mongoose.model('Cart', Schema)
