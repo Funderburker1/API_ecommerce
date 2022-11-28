@@ -11,11 +11,11 @@ Como usar
 
 .env
 <br>
-<br>
 mongodb+srv://ecommerce_API:<password>@cluster0.yocvoc1.mongodb.net/?retryWrites=true&w=majority (so criar um no MongoDB)
 
 Criar suas request no Insominia
 <br>
 exemplo a baixo:
+<br>
 <br>
 ![Screenshot_7](https://user-images.githubusercontent.com/66924117/204288928-c448ed97-fb27-46b4-81eb-f0d71cb2b964.png)
