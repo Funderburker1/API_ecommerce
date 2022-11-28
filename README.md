@@ -19,7 +19,8 @@ mongodb+srv://ecommerce_API:*senhaAqui*@cluster0.yocvoc1.mongodb.net/?retryWrite
 <br>
 exemplo a baixo:
 <br>
-  <img src="https://user-images.githubusercontent.com/66924117/204291642-218f5157-ea13-4263-acc3-2c2be43fcf29.png" alt="Minha Figura">
+  <img src="https://user-images.githubusercontent.com/66924117/204306431-0352a0be-e6f9-4a58-a526-174ec01703a5.png" alt="Minha Figura">
+
 
 
 
