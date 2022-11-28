@@ -1,4 +1,4 @@
-Uma implementação NodeJS de uma API de ecommerce.
+Uma implementação em NodeJS de uma API de ecommerce.
 
 <strong>Ferramentas usadas</strong>
 1. Insominia (https://insomnia.rest/download)
