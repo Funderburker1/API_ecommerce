@@ -1,5 +1,4 @@
 Uma implementação NodeJS de uma API de ecommerce.
-<hr>
 
 <strong>Ferramentas usadas</strong>
 1. Insominia (https://insomnia.rest/download)
