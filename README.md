@@ -11,7 +11,6 @@ Uma implementação NodeJS de uma API de ecommerce.
 1. Baixar node_modules (npm install express)
 2. Ligar o server (npm run dev)
 <br>
-<br>
 <strong>.env</strong>
 <br>
 mongodb+srv://ecommerce_API:<password>@cluster0.yocvoc1.mongodb.net/?retryWrites=true&w=majority (so criar um no MongoDB)
