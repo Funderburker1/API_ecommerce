@@ -13,7 +13,6 @@ Uma implementação NodeJS de uma API de ecommerce.
 <strong>.env</strong>
 <br>
 mongodb+srv://ecommerce_API:<password>@cluster0.yocvoc1.mongodb.net/?retryWrites=true&w=majority (so criar um no MongoDB)
-<br>
 <strong>Criar suas request no Insominia</strong>
 <br>
 exemplo a baixo:
